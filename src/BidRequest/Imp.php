@@ -188,6 +188,10 @@ class Imp implements Arrayable
      */
     public function setId($id)
     {
+        if (is_numeric($id)) {
+            $id = (string)$id;
+        }
+
         $this->validateString($id);
         $this->id = $id;
         return $this;

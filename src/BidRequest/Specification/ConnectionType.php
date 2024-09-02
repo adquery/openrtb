@@ -15,4 +15,5 @@ class ConnectionType
     const CELLULAR_NETWORK_2G = 4;
     const CELLULAR_NETWORK_3G = 5;
     const CELLULAR_NETWORK_4G = 6;
+    const CELLULAR_NETWORK_5G = 7;
 }
