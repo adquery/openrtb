@@ -15,4 +15,5 @@ class DeviceType
     const TABLET = 5;
     const CONNECTED_DEVICE = 6;
     const SET_TOP_BOX = 7;
+    const OOH_DEVICE = 8;
 }
